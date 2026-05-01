@@ -35167,7 +35167,7 @@ if(r!=null)r.af()}},
 $S:364}
 A.KW.prototype={}
 A.qE.prototype={
-ag(){return new A.wd(A.d(["assets/video/v1.mp4","assets/video/videoplayback122.mp4"],t.s),null,null)}}
+ag(){return new A.wd(A.d(["assets/video/v1.mp4"],t.s),null,null)}}
 A.wd.prototype={
 ap(){var s,r=this
 r.aW()
@@ -35216,7 +35216,7 @@ s=p.a
 r=s.b
 q=s.a.a
 if(r.a>=q&&q>0&&!s.f)this.XY()},
-XY(){var s=this,r=(s.r+1)%2
+XY(){var s=this,r=(s.r+1)%1
 s.r=r
 s.nm(s.y[r])},
 l(){var s=this,r=s.d
@@ -35258,7 +35258,7 @@ l.toString
 l=A.aU(l).ok.Q
 l=l==null?i:l.lH(B.E.cp(0.7))
 k=t.V
-q=A.i6(A.DW(A.d([B.B2,B.vv,n,B.Iy,A.jX(""+(m+1)+"/2",l,i)],k),B.aE,B.b8),i,new A.dJ(i,i,i,i,i,new A.il(B.iT,B.fe,B.bb,q,i,i),B.aq),i,i,B.As,1/0)
+q=A.i6(A.DW(A.d([B.B2,B.vv,n,B.Iy,A.jX(""+(m+1)+"/1",l,i)],k),B.aE,B.b8),i,new A.dJ(i,i,i,i,i,new A.il(B.iT,B.fe,B.bb,q,i,i),B.aq),i,i,B.As,1/0)
 if(j.x)n=A.i6(B.y8,B.m,i,i,i,i,i)
 else if(j.w){n=j.f
 m=n.a.as
