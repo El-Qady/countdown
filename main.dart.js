@@ -35082,10 +35082,10 @@ n=A.a1a(A.a95().$2$color$fontSize(B.fG,16),A.a95().$2$color$fontSize(B.fG,14),s,
 o=A.a95().$2$fontSize$fontWeight(16,B.as)
 return A.aor(new A.tA(B.AT,"Graduation Countdown",A.ab8(B.Y,B.yg,new A.nh(A.amW(B.E,B.bO,B.Av,new A.dm(A.mV(8),B.r),s,o)),B.E,B.bO,n,s),!1,s),r)}}
 A.RU.prototype={
-$1(a){var s,r,q=A.apn(2026,5,19,0,0,0,0,0,!1)
+$1(a){var s,r,q=A.apn(2026,5,19,15,0,0,0,0,!1)
 if(q==null)q=864e14
 s=new A.es(q,0,!1)
-if(q===864e14)A.ah(A.c_("(2026, 5, 19, 0, 0, 0, 0, 0)",null))
+if(q===864e14)A.ah(A.c_("(2026, 5, 19, 15, 0, 0, 0, 0)",null))
 q=new A.iL(s,B.p,$.aA())
 r=new A.es(Date.now(),0,!1)
 if(s.zp(r))q.c=s.cO(r)
@@ -35095,7 +35095,7 @@ q.Zr()
 return q},
 $S:346}
 A.RV.prototype={
-$1(a){var s=new A.hY(A.alz(),A.d(["audio/1.mp3"],t.s),$.aA())
+$1(a){var s=new A.hY(A.alz(),A.d(["audio/1.mp3","audio/2.mp3","audio/3.mp3","audio/4.mp3","audio/5.mp3","audio/6.mp3"],t.s),$.aA())
 s.Z2()
 return s},
 $S:361}
@@ -35147,7 +35147,7 @@ this.bE()},
 $iY:1}
 A.Nw.prototype={
 $1(a){var s=this.a
-s.c=(s.c+1)%1
+s.c=(s.c+1)%6
 s.li()},
 $S:85}
 A.FW.prototype={}
